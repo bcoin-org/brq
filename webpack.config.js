@@ -5,10 +5,10 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 module.exports = {
   target: 'web',
   entry: {
-    'breq': './lib/breq'
+    'brq': './lib/brq'
   },
   output: {
-    library: 'breq',
+    library: 'brq',
     libraryTarget: 'umd',
     path: __dirname,
     filename: '[name].js'

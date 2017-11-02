@@ -1,12 +1,12 @@
-# breq
+# brq
 
 A minimal request module.
 
 ## Usage
 
 ``` js
-const breq = require('breq');
-const res = await breq('google.com');
+const brq = require('brq');
+const res = await brq('google.com');
 console.log(res.text());
 ```
 

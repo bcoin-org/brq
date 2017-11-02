@@ -1,5 +1,5 @@
 {
-  "name": "breq",
+  "name": "brq",
   "version": "0.0.0",
   "description": "Request bike-shed",
   "keywords": [
@@ -7,16 +7,16 @@
     "request"
   ],
   "license": "MIT",
-  "repository": "git://github.com/bcoin-org/breq.git",
-  "homepage": "https://github.com/bcoin-org/breq",
+  "repository": "git://github.com/bcoin-org/brq.git",
+  "homepage": "https://github.com/bcoin-org/brq",
   "bugs": {
-    "url": "https://github.com/bcoin-org/breq/issues"
+    "url": "https://github.com/bcoin-org/brq/issues"
   },
   "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
-  "main": "./lib/breq.js",
+  "main": "./lib/brq.js",
   "scripts": {
-    "browserify": "browserify -s breq lib/breq.js | uglifyjs -c > breq.js",
-    "clean": "rm -f breq.js",
+    "browserify": "browserify -s brq lib/brq.js | uglifyjs -c > brq.js",
+    "clean": "rm -f brq.js",
     "lint": "eslint lib/ test/ || exit 0",
     "test": "mocha --reporter spec test/*-test.js",
     "webpack": "webpack --config webpack.config.js"
