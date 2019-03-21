@@ -1,6 +1,6 @@
 {
   "name": "brq",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Request bike-shed",
   "keywords": [
     "http",
@@ -19,7 +19,7 @@
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "dependencies": {
-    "bsert": "~0.0.9"
+    "bsert": "~0.0.10"
   },
   "devDependencies": {
     "bmocha": "^2.1.0"
