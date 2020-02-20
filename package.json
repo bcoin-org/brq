@@ -19,7 +19,8 @@
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "dependencies": {
-    "bsert": "~0.0.10"
+    "bsert": "~0.0.10",
+    "try-require": "^1.2.1"
   },
   "devDependencies": {
     "bmocha": "^2.1.0"
@@ -29,5 +30,8 @@
   },
   "browser": {
     "./lib/request": "./lib/request-browser.js"
+  },
+  "optionalDependencies": {
+    "proxy-agent": "^3.1.1"
   }
 }
