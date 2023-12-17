@@ -5,9 +5,9 @@ A minimal request module.
 ## Usage
 
 ``` js
-const brq = require('brq');
-const res = await brq('google.com');
-console.log(res.text());
+import request from 'brq';
+const response = await request('https://icanhazip.com');
+console.log(response.text());
 ```
 
 ## Contribution and License Agreement
